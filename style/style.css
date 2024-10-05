@@ -33,14 +33,17 @@ h1{
     font-size: 30px;
     font-weight: bolder;
     color: rgb(255, 255, 255);
-    background-color: rgb(16, 136, 5);
+    background-color: #de14c7;
     padding: 7px 20px;
     border: 2px solid rgb(210, 255, 85);
     border-radius: 10px;
     font-family: "Gamja Flower", sans-serif;
+    transition: all 1s;
 }
 .btn-parent{
     text-align: center;
     margin-top: 300px;
-   
+}
+.btn:hover{
+    background-color: green ;
 }
